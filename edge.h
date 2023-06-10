@@ -2,7 +2,10 @@
 #define EDGE_H
 #include <iostream>
 #include <cstring>
-
+/* Name: Ishaan Varma
+   Date: 6/9/2023
+   Purpose: Where the edge class is defined.
+ */
 class edge {
  public:
   class vertex* first;

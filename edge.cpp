@@ -1,5 +1,8 @@
 #include "edge.h"
-
+/* Name: Ishaan Varma
+   Date: 6/9/2023
+   Purpose: Where the dge class is implemented.
+*/
 edge::edge(vertex* nFirst, vertex* nSecond, int nWeight) {
   first = nFirst;
   second = nSecond;

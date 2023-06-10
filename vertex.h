@@ -2,7 +2,10 @@
 #include <iostream>
 #include <cstring>
 #include "edge.h"
-
+/* Name: Ishaan Varma
+   Date: 6/9/2023
+   Purpose: Where the vertex class is defined.
+ */
 
 class vertex {
  public:

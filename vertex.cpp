@@ -1,28 +1,21 @@
 #include "vertex.h"
+/* Name: Ishaan Varma
+   Date: 6/9/2023
+   Purpose: where the vertex class is implemented
+ */
 
 void swap1(edge* all[], edge* first, edge* second);
 void swap1(vertex* all[], vertex* first, vertex* second);
 
 vertex::vertex(char nid) {
   id = nid;
+  size = 0;
+  for(int i = 0; i < 20; i++) {
+    all[i] = NULL;
+  }
 }
 
 vertex::~vertex() {
-  for(int i = 0; i < size; i++) {
-    if(all[i] != NULL) {
-      vertex* other = all[i]->otherPoint(this);
-      for(int j = 0; j < other->size; j++) {
-	if(other->all[j] = all[i]) {
-	  if(j != other->size - 1) {
-	    swap1(other->all, other->all[j], other->all[other->size-1]);
-	  }
-	  other->all[size - 1] = NULL;
-	  other->size--;
-	}
-      }
-      delete all[i];
-    }
-  }
 }
 
 
